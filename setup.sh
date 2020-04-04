@@ -12,4 +12,6 @@ sh "$script_path/bash-profile.sh"
 # Set up git conveniences
 sh "$script_path/git.sh"
 
+source ~/.bash_profile
+
 exit 0
