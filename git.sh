@@ -14,6 +14,7 @@ fi
 cp ./.gitignore ~
 
 git config --global core.excludesfile ~/.gitignore
+git config --global push.default current
 
 # git aliases
 git config --global alias.aliases "config --get-regexp '^alias\.'"
